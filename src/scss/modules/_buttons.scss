@@ -17,6 +17,12 @@
   margin-top: 60px;
 }
 
+.savoir-plus:hover {
+  color: var(--orange, #fff);
+  background: #ff5c00;
+  border: 1px solid var(--orange, #fff);
+}
+
 .commander {
   border: 1px solid var(--white, #fff);
   background: var(--orange, #ff5c00);
@@ -37,4 +43,10 @@
   line-height: normal;
   text-transform: uppercase;
   margin-top: 36px;
+}
+
+.commander:hover {
+  border: 1px solid var(--orange, #ff5c00);
+  background: #fff;
+  color: var(--orange, #ff5c00);
 }

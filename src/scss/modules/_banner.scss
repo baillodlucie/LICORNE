@@ -1,6 +1,18 @@
 .banner {
   height: 181px;
-  flex-shrink: 0;
-  border: 0px solid #000;
   background: var(--pink, #fec9e6);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner-p {
+  color: var(--orange, #ff5c00);
+  font-family: Archivo;
+  font-size: 78px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
 }
