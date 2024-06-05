@@ -1,0 +1,18 @@
+h1 {
+  width: 367px;
+  height: 63px;
+  flex-shrink: 0;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: var(--orange, #ff5c00);
+
+  /* h2 */
+  font-family: Archivo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
