@@ -6,6 +6,7 @@ p {
   font-weight: 400;
   line-height: normal;
   padding-top: 16px;
+  width: 490px;
 }
 
 .section-histoire {
@@ -18,4 +19,59 @@ p {
 .section-histoire,
 .section-bières {
   padding-top: 326px;
+}
+
+.section-bières {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 360px;
+}
+
+.bières {
+  align-items: end;
+}
+
+.bières-p {
+  width: 490px;
+  padding-bottom: 127px;
+}
+
+.product-p {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.products {
+  padding-bottom: 127px;
+}
+
+.allergens {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.quantity {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.price {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

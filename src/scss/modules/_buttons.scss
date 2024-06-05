@@ -16,3 +16,25 @@
   text-transform: uppercase;
   margin-top: 60px;
 }
+
+.commander {
+  border: 1px solid var(--white, #fff);
+  background: var(--orange, #ff5c00);
+  box-shadow: 4px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 159px;
+  height: 57.67px;
+  padding: 17px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  color: var(--white, #fff);
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 36px;
+}
