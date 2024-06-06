@@ -5,6 +5,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .products {
@@ -15,6 +17,7 @@
 .products-img-blonde {
   background: #fec9e6;
 }
+
 .products-img-brune {
   background: #ff5c00;
 }
@@ -30,6 +33,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 26px;
 }
 
 .quantity {
@@ -38,7 +42,6 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .price {
@@ -47,5 +50,5 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  padding-bottom: 6px;
 }
