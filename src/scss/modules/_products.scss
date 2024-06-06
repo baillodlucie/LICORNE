@@ -1,0 +1,51 @@
+.product-p {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.products {
+  padding-left: 117px;
+  padding-top: 75px;
+}
+
+.products-img-blonde {
+  background: #fec9e6;
+}
+.products-img-brune {
+  background: #ff5c00;
+}
+
+.products-img-ipa {
+  background: #fffe52;
+}
+
+.allergens {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.quantity {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.price {
+  color: var(--black, #000);
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

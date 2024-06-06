@@ -1,5 +1,8 @@
 .footer {
   background: var(--pink, #fec9e6);
+  padding-bottom: 50px;
+  padding-top: 80px;
+  display: flex;
 }
 
 ul {
@@ -10,8 +13,14 @@ ul {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 
 li {
-  padding-top: 127px;
+  list-style-type: none;
+}
+
+.footer-address {
+  padding-right: 30px;
+  justify-content: space-between;
 }
