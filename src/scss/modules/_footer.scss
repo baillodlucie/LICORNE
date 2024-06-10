@@ -3,6 +3,7 @@
   padding-bottom: 50px;
   padding-top: 80px;
   display: flex;
+  justify-content: space-around;
 }
 
 ul {
@@ -22,5 +23,22 @@ li {
 
 .footer-address {
   padding-right: 30px;
+  padding-left: 60px;
   justify-content: space-between;
+  font-weight: 500;
+}
+
+.footer-adress-p {
+  padding-top: 15px;
+}
+
+.footer-socialnetworks {
+  text-align: center;
+}
+
+.footer-credits {
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }

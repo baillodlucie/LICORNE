@@ -1,19 +1,17 @@
 .newsletter {
-  background: var(--orange, #ff5c00);
-  padding-bottom: 50px;
+  background: #ff5c00;
   padding-top: 50px;
   display: flex;
-  width: 1490px;
   height: 522px;
   flex-shrink: 0;
 }
 
 .newsletter-title {
-  color: var(--white, #fff);
+  color: #fff;
 }
 
 .newsletter-p {
-  color: var(--white, #fff);
+  color: #fff;
 }
 
 .newsletter-img {
