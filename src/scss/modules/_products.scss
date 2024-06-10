@@ -5,8 +5,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px 0 16px 0;
 }
 
 .products {
@@ -27,7 +26,7 @@
 }
 
 .allergens {
-  color: var(--black, #000);
+  color: #000;
   font-family: Archivo;
   font-size: 12px;
   font-style: normal;
@@ -37,7 +36,7 @@
 }
 
 .quantity {
-  color: var(--black, #000);
+  color: #000;
   font-family: Archivo;
   font-size: 14px;
   font-style: normal;
@@ -45,7 +44,7 @@
 }
 
 .price {
-  color: var(--black, #000);
+  color: #000;
   font-family: Archivo;
   font-size: 20px;
   font-style: normal;

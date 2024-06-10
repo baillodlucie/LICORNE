@@ -5,15 +5,12 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  border: 1px solid var(--orange, #ff5c00);
+  border: 1px solid #ff5c00;
   background: #fff;
   box-shadow: 4px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
-  color: var(--orange, #ff5c00);
-  font-family: Archivo;
+  color: #ff5c00;
   font-size: 16px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -23,14 +20,14 @@
 
 .savoir-plus:hover,
 .inscrire:hover {
-  color: var(--orange, #fff);
+  color: #fff;
   background: #ff5c00;
-  border: 1px solid var(--orange, #fff);
+  border: 1px solid #fff;
 }
 
 .commander {
-  border: 1px solid var(--white, #fff);
-  background: var(--orange, #ff5c00);
+  border: 1px solid #fff;
+  background: #ff5c00;
   box-shadow: 4px 4px 9.9px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   width: 159px;
@@ -38,20 +35,15 @@
   padding: 17px 22px;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  color: var(--white, #fff);
-  font-family: Archivo;
+  color: #fff;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   margin-top: 36px;
 }
 
 .commander:hover {
-  border: 1px solid var(--orange, #ff5c00);
+  border: 1px solid #ff5c00;
   background: #fff;
-  color: var(--orange, #ff5c00);
+  color: #ff5c00;
 }

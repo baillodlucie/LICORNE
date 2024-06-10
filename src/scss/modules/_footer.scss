@@ -1,18 +1,14 @@
 .footer {
-  background: var(--pink, #fec9e6);
-  padding-bottom: 50px;
-  padding-top: 80px;
+  background: #fec9e6;
+  padding: 80px 0 50px 0;
   display: flex;
   justify-content: space-around;
 }
 
 ul {
-  color: var(--orange, #ff5c00);
-  font-family: Archivo;
+  color: #ff5c00;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   text-transform: uppercase;
   padding-bottom: 10px;
 }
@@ -22,8 +18,7 @@ li {
 }
 
 .footer-address {
-  padding-right: 30px;
-  padding-left: 60px;
+  padding: 0 30 0 80;
   justify-content: space-between;
   font-weight: 500;
 }
@@ -39,6 +34,5 @@ li {
 .footer-credits {
   font-family: Archivo;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
 }

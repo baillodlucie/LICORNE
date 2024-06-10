@@ -3,14 +3,10 @@ h1 {
 }
 
 h2 {
-  color: var(--orange, #ff5c00);
-
-  /* h2 */
+  color: #ff5c00;
   font-family: Archivo;
   font-size: 48px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -18,9 +14,7 @@ h3 {
   color: var(--black, #000);
   font-family: Archivo;
   font-size: 32px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
   text-transform: uppercase;
 }
 
@@ -28,9 +22,7 @@ h4 {
   color: var(--orange, #ff5c00);
   font-family: Archivo;
   font-size: 24px;
-  font-style: normal;
   font-weight: 800;
-  line-height: normal;
   text-transform: uppercase;
   padding-bottom: 15px;
 }

@@ -16,6 +16,7 @@
   flex-direction: column;
   padding-bottom: 360px;
 }
+
 .section-histoire-p,
 .section-bieres-p {
   padding-top: 16px;
@@ -34,47 +35,93 @@
   position: absolute;
   width: 491px;
   height: 490px;
-  transform: rotate(25.29deg);
   flex-shrink: 0;
   bottom: 600px;
   left: 500;
+  -webkit-transform: rotate(15deg) scale(1);
+  transform: rotate(25.29deg) scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.brune-png-1:hover {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 .blonde-png-1 {
   position: absolute;
   width: 457.126px;
   height: 459.965px;
-  transform: rotate(-81.539deg);
   flex-shrink: 0;
   right: 60;
   top: 200;
+  -webkit-transform: rotate(15deg) scale(1);
+  transform: rotate(-81.539deg) scale(1);
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.blonde-png-1:hover {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 .ipa-png-1 {
   position: absolute;
   width: 518.211px;
   height: 525.014px;
-  transform: rotate(-135deg);
   flex-shrink: 0;
   top: 650px;
   right: 300px;
+  -webkit-transform: rotate(15deg) scale(1);
+  transform: rotate(-135deg) scale(1);
+  -webkit-transition: 0.9s ease-in-out;
+  transition: 0.9s ease-in-out;
+}
+
+.ipa-png-1:hover {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 .blonde-png-2 {
   position: absolute;
   width: 457.126px;
   height: 459.965px;
-  transform: rotate(75deg);
   flex-shrink: 0;
   top: 1000;
+  -webkit-transform: rotate(15deg) scale(1);
+  transform: rotate(75deg) scale(1);
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.blonde-png-2:hover {
+  -webkit-transform: rotate(0) scale(1);
+  transform: rotate(0) scale(1);
 }
 
 .ipa-png-2 {
   position: absolute;
   width: 466px;
   height: 466px;
-  transform: rotate(-30deg);
   flex-shrink: 0;
   top: 1550;
   left: 470px;
+  -webkit-transform: rotate(15deg) scale(1);
+  transform: rotate(-30deg) scale(1);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
