@@ -40,10 +40,3 @@ select:focus {
 select::-ms-expand {
   display: none;
 }
-
-@media (min-width: 768px) {
-  select {
-    max-width: 300px;
-    width: auto;
-  }
-}
