@@ -6,6 +6,12 @@
   align-items: center;
 }
 
+marquee {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .banner-p {
   color: var(--orange, #ff5c00);
   font-family: Archivo;
@@ -13,17 +19,4 @@
   text-align: center;
   font-weight: 800;
   text-transform: uppercase;
-  animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-40px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
 }

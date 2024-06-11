@@ -20,8 +20,13 @@ select {
   border-radius: 5px;
   padding: 8px 30px 8px 10px;
   outline: none;
-  color: #555;
+  color: #000000;
   max-height: 40px;
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 select:focus {
