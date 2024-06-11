@@ -1,5 +1,6 @@
-.savoir-plus,
-.inscrire {
+.savoir-plus-histoire,
+.inscrire,
+.savoir-plus-offre {
   display: inline-flex;
   padding: 17px 22px;
   justify-content: center;
@@ -14,12 +15,14 @@
   text-transform: uppercase;
 }
 
-.savoir-plus {
+.savoir-plus-histoire,
+.savoir-plus-offre {
   margin-top: 60px;
 }
 
-.savoir-plus:hover,
-.inscrire:hover {
+.savoir-plus-histoire:hover,
+.inscrire:hover,
+.savoir-plus-offre:hover {
   color: #fff;
   background: #ff5c00;
   border: 1px solid #fff;
@@ -46,4 +49,12 @@
   border: 1px solid #ff5c00;
   background: #fff;
   color: #ff5c00;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button {
+  transition: transform 0.2s;
 }

@@ -17,6 +17,11 @@ nav {
   align-items: center;
 }
 
+a {
+  transition: transform 0.2s;
+}
+
 a:hover {
   color: var(--orange, #ff5c00);
+  transform: scale(1.1);
 }

@@ -2,9 +2,9 @@
   background: #ff5c00;
   padding-top: 50px;
   display: flex;
-  height: 522px;
+  height: 407px;
   flex-shrink: 0;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .newsletter-title {
@@ -15,18 +15,8 @@
   color: #fff;
 }
 
-.newsletter-img {
-  width: 100%;
-}
-
-.newsletter-img-logo {
-  width: 442px;
-  height: 372px;
-  padding-left: 30px;
-}
-
 .newsletter-content {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-left: 60px;
 }
 

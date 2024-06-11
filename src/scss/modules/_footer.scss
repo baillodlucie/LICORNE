@@ -3,6 +3,7 @@
   padding: 80px 0 50px 0;
   display: flex;
   justify-content: space-around;
+  height: 407px;
 }
 
 ul {
@@ -35,4 +36,9 @@ li {
   font-family: Archivo;
   font-size: 16px;
   font-weight: 400;
+}
+
+.tiktok:hover,
+.instagram:hover {
+  transform: scale(1.1);
 }
