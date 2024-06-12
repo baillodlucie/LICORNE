@@ -1,7 +1,7 @@
 .footer {
   background: #fec9e6;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 407px;
 }
 
@@ -10,8 +10,7 @@ ul {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding: 0px 0px 10px 0px;
 }
 
 li {
@@ -21,9 +20,10 @@ li {
 
 .footer-address {
   padding: 0 30 0 80;
-  justify-content: space-between;
   font-weight: 500;
   padding-top: 70px;
+  padding-right: 100px;
+  padding: 70px 129px 0px 192px;
 }
 
 .footer-adress-p {
@@ -35,14 +35,15 @@ li {
   text-align: center;
   justify-content: space-between;
   padding-top: 70px;
+  padding-left: 70px;
 }
 
 .footer-credits {
   font-family: Archivo;
   font-size: 16px;
   font-weight: 400;
-  padding-top: 70px;
-  padding-left: 20px;
+  padding-top: 200px;
+  color: #ff5c00;
 }
 
 .tiktok,
@@ -53,4 +54,8 @@ li {
 .tiktok:hover,
 .instagram:hover {
   transform: scale(1.1);
+}
+
+.footer-links {
+  padding-left: 100px;
 }
