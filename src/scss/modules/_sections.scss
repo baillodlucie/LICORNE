@@ -37,7 +37,7 @@
   height: 490px;
   flex-shrink: 0;
   bottom: 600px;
-  left: 500;
+  left: 400;
   -webkit-transform: rotate(15deg) scale(1);
   transform: rotate(25.29deg) scale(1);
   -webkit-transition: 0.3s ease-in-out;
@@ -73,7 +73,7 @@
   height: 525.014px;
   flex-shrink: 0;
   top: 650px;
-  right: 300px;
+  right: 400px;
   -webkit-transform: rotate(15deg) scale(1);
   transform: rotate(-135deg) scale(1);
   -webkit-transition: 0.9s ease-in-out;
@@ -129,6 +129,7 @@
   padding: 220px 0px 0px 90px;
 }
 
-.img-offre {
+img .img-offre {
   padding: 0;
+  max-inline-size: 100%;
 }

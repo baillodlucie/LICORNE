@@ -21,6 +21,8 @@ html {
   padding: 0;
   width: 100%;
   display: block;
+  max-width: 1440px;
+  margin: auto;
 }
 
 body {
@@ -45,9 +47,6 @@ video {
   vertical-align: middle;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
 .row + .row {
   margin-top: 16px;
 }
